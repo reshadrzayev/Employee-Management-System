@@ -7,6 +7,8 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net.Mail;
+using System.Reflection;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,11 +18,45 @@ namespace EmployeeManagementSystem
 {
     public partial class Login : Form
     {
+
+        //static IniFile ini2 = new IniFile("details.ini");
+        //static string language = GetLanguage();
+
+
+
         public Login()
         {
             CheckRemember();
             InitializeComponent();
         }
+
+        //ResourceManager rm = new ResourceManager("EmployeeManagementSystem." + language, Assembly.GetExecutingAssembly());
+
+        //public static string GetLanguage()
+        //{
+        //    string dil = "";
+        //    try
+        //    {
+        //         dil = ini2.Read("Language");
+
+        //    }
+        //    catch(Exception ex)
+        //    {
+                
+        //    }
+        //    string lang = "az";
+        //    switch (dil)
+        //    {
+        //        case "az": lang = "az"; break;
+        //        case "en": lang = "en"; break;
+        //        default: lang = "az"; break;
+
+        //    }
+        //    //MessageBox.Show(lang);
+        //    return lang;
+        //    //throw new NotImplementedException();
+        //}
+
 
         SqlConnection connection;
         SqlCommand cmd;
@@ -29,7 +65,8 @@ namespace EmployeeManagementSystem
         string pass = "";
         int admin_id;
 
-        IniFile ini = new IniFile("remember.ini");
+        static IniFile ini = new IniFile("remember.ini");
+
 
         private void CheckRemember()
         {
@@ -97,6 +134,31 @@ namespace EmployeeManagementSystem
                 }
 
             }
+            switch (LangCommon.GetLanguage())
+            {
+                case "az": cmbox_dil.SelectedIndex = 0; break;
+                case "en": cmbox_dil.SelectedIndex = 1; break;
+                default: cmbox_dil.SelectedIndex = 0; break;
+            }
+
+
+            //Text += version;
+            //btn_get.Text = rm.GetString("btn_get");
+            //btn_set.Text = rm.GetString("btn_set");
+            //try{
+                lbl_email.Text = LangCommon.rm.GetString("lbl_email");
+                lbl_pass.Text = LangCommon.rm.GetString("lbl_pass");
+                checkBox_pass.Text = LangCommon.rm.GetString("checkBox_pass");
+                btn_login.Text = LangCommon.rm.GetString("btn_login");
+                checkBox_rem.Text = LangCommon.rm.GetString("checkBox_rem");
+                lbl_forgotpass.Text = LangCommon.rm.GetString("lbl_forgotpass");
+                lbl_loginuser.Text = LangCommon.rm.GetString("lbl_loginuser");
+            //}
+            //catch(Exception ex)
+            //{
+            //    MessageBox.Show("e");
+            //}
+
         }
 
         private void btn_login_Click(object sender, EventArgs e)
@@ -276,6 +338,20 @@ namespace EmployeeManagementSystem
             {
                 txt_password.UseSystemPasswordChar = false;
             }
+        }
+
+        private void btn_set_Click(object sender, EventArgs e)
+        {
+            string last_lang = "";
+            switch (cmbox_dil.SelectedItem.ToString())
+            {
+                case "Az": last_lang = "az"; break;
+                case "Eng": last_lang = "en"; break;
+                default: last_lang = "en"; break;
+
+            }
+            LangCommon.ini2.Write("Language", last_lang);
+            Application.Restart();
         }
     }
 }

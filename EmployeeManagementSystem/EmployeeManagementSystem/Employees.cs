@@ -42,6 +42,29 @@ namespace EmployeeManagementSystem
 
             //dgv_emp.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv_pos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            switch (LangCommon.GetLanguage())
+            {
+                case "az": cmbox_dil.SelectedIndex = 0; break;
+                case "en": cmbox_dil.SelectedIndex = 1; break;
+                default: cmbox_dil.SelectedIndex = 0; break;
+            }
+            //lbl_heading.Text = LangCommon.rm.GetString("lbl_heading");
+            //btn_emp.Text = LangCommon.rm.GetString("btn_emp");
+            //btn_dep.Text = LangCommon.rm.GetString("btn_dep");
+
+            //btn_salary.Text = LangCommon.rm.GetString("btn_salary");-
+            lbl_name.Text = LangCommon.rm.GetString("lbl_name");
+            lbl_sname.Text = LangCommon.rm.GetString("lbl_sname");
+            lbl_fin.Text = LangCommon.rm.GetString("lbl_fin");
+            lbl_phone.Text = LangCommon.rm.GetString("lbl_phone");
+            lbl_add.Text = LangCommon.rm.GetString("lbl_add");
+            lbl_bday.Text = LangCommon.rm.GetString("lbl_bday");
+            lbl_posid.Text = LangCommon.rm.GetString("lbl_posid");
+            lbl_email.Text = LangCommon.rm.GetString("lbl_email");
+            lbl_pass.Text = LangCommon.rm.GetString("lbl_pass");
+            btn_showpos.Text = LangCommon.rm.GetString("btn_showpos");
+
         }
 
         private void gridviewEmp()
@@ -198,6 +221,116 @@ namespace EmployeeManagementSystem
             txt_email.Text = "";
             txt_pass.Text = "";
             txt_empphone.Text = "";
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_empid_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_pass_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_email_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_fin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_empfin_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_empsname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_sname_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_phone_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_empphone_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_empposid_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtp_empbirth_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_bday_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_pos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_empadd_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_empname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_add_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_name_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgv_pos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

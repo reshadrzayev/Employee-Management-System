@@ -12,6 +12,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="az.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>az.resx</DependentUpon>
+    </Compile>
+    <Compile Update="en.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>en.resx</DependentUpon>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -20,6 +30,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="az.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>az.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -34,7 +34,7 @@ namespace EmployeeManagementSystem
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ixn_exit = new System.Windows.Forms.PictureBox();
             this.icn_logout = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_heading = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btn_emp = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -44,11 +44,7 @@ namespace EmployeeManagementSystem
             this.panel4 = new System.Windows.Forms.Panel();
             this.btn_salary = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.btn_task = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.cmbox_dil = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ixn_exit)).BeginInit();
@@ -59,10 +55,6 @@ namespace EmployeeManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -71,7 +63,7 @@ namespace EmployeeManagementSystem
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.ixn_exit);
             this.panel1.Controls.Add(this.icn_logout);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.lbl_heading);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -82,7 +74,7 @@ namespace EmployeeManagementSystem
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(796, 21);
+            this.pictureBox2.Location = new System.Drawing.Point(917, 26);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(135, 132);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -113,25 +105,26 @@ namespace EmployeeManagementSystem
             this.icn_logout.TabStop = false;
             this.icn_logout.Click += new System.EventHandler(this.icn_logout_Click);
             // 
-            // label1
+            // lbl_heading
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_heading.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(211, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(579, 73);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "İşçi İdarəetmə Sistemi";
+            this.lbl_heading.AutoSize = true;
+            this.lbl_heading.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_heading.Location = new System.Drawing.Point(102, 56);
+            this.lbl_heading.Name = "lbl_heading";
+            this.lbl_heading.Size = new System.Drawing.Size(579, 73);
+            this.lbl_heading.TabIndex = 1;
+            this.lbl_heading.Text = "İşçi İdarəetmə Sistemi";
+            this.lbl_heading.Click += new System.EventHandler(this.lbl_heading_Click);
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel2.Controls.Add(this.btn_emp);
             this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Location = new System.Drawing.Point(0, 285);
+            this.panel2.Location = new System.Drawing.Point(225, 284);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(213, 233);
             this.panel2.TabIndex = 1;
@@ -166,7 +159,7 @@ namespace EmployeeManagementSystem
             this.panel3.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel3.Controls.Add(this.btn_dep);
             this.panel3.Controls.Add(this.pictureBox4);
-            this.panel3.Location = new System.Drawing.Point(233, 285);
+            this.panel3.Location = new System.Drawing.Point(458, 284);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(213, 233);
             this.panel3.TabIndex = 2;
@@ -201,7 +194,7 @@ namespace EmployeeManagementSystem
             this.panel4.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel4.Controls.Add(this.btn_salary);
             this.panel4.Controls.Add(this.pictureBox5);
-            this.panel4.Location = new System.Drawing.Point(468, 285);
+            this.panel4.Location = new System.Drawing.Point(693, 284);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(213, 233);
             this.panel4.TabIndex = 3;
@@ -231,67 +224,25 @@ namespace EmployeeManagementSystem
             this.pictureBox5.TabIndex = 6;
             this.pictureBox5.TabStop = false;
             // 
-            // panel5
+            // cmbox_dil
             // 
-            this.panel5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel5.Controls.Add(this.btn_task);
-            this.panel5.Controls.Add(this.pictureBox6);
-            this.panel5.Location = new System.Drawing.Point(702, 285);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(213, 233);
-            this.panel5.TabIndex = 4;
-            // 
-            // btn_task
-            // 
-            this.btn_task.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_task.FlatAppearance.BorderSize = 0;
-            this.btn_task.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_task.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_task.Location = new System.Drawing.Point(24, 161);
-            this.btn_task.Name = "btn_task";
-            this.btn_task.Size = new System.Drawing.Size(167, 47);
-            this.btn_task.TabIndex = 7;
-            this.btn_task.Text = "Tapşırıq";
-            this.btn_task.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(24, 17);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(168, 138);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel6.Controls.Add(this.pictureBox7);
-            this.panel6.Location = new System.Drawing.Point(941, 285);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(213, 233);
-            this.panel6.TabIndex = 5;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(24, 17);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(168, 138);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
+            this.cmbox_dil.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple;
+            this.cmbox_dil.Enabled = false;
+            this.cmbox_dil.FormattingEnabled = true;
+            this.cmbox_dil.Items.AddRange(new object[] {
+            "Az",
+            "Eng"});
+            this.cmbox_dil.Location = new System.Drawing.Point(1094, 190);
+            this.cmbox_dil.Name = "cmbox_dil";
+            this.cmbox_dil.Size = new System.Drawing.Size(48, 28);
+            this.cmbox_dil.TabIndex = 33;
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1154, 638);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.cmbox_dil);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -300,6 +251,7 @@ namespace EmployeeManagementSystem
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -311,10 +263,6 @@ namespace EmployeeManagementSystem
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -322,7 +270,7 @@ namespace EmployeeManagementSystem
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_heading;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox ixn_exit;
         private System.Windows.Forms.PictureBox icn_logout;
@@ -335,10 +283,6 @@ namespace EmployeeManagementSystem
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btn_salary;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button btn_task;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.ComboBox cmbox_dil;
     }
 }

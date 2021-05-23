@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {}
+    "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\GitHub Repo\\Employee-Management-System\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {
+    "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\GitHub Repo\\Employee-Management-System\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\GitHub Repo\\Employee-Management-System\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
         "projectName": "EmployeeManagementSystem",
-        "projectPath": "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+        "projectPath": "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\GitHub Repo\\Employee-Management-System\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
         "packagesPath": "C:\\Users\\resha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\EmployeeManagementSystem\\EmployeeManagementSystem\\obj\\",
+        "outputPath": "C:\\Users\\resha\\OneDrive\\Desktop\\Web Programming\\GitHub Repo\\Employee-Management-System\\EmployeeManagementSystem\\EmployeeManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\resha\\AppData\\Roaming\\NuGet\\NuGet.Config",

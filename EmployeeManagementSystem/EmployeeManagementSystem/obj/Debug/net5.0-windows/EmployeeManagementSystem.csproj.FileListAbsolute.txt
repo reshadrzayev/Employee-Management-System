@@ -30,3 +30,37 @@ C:\Users\resha\OneDrive\Desktop\Web Programming\EmployeeManagementSystem\Employe
 C:\Users\resha\OneDrive\Desktop\Web Programming\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.SalaryShow.resources
 C:\Users\resha\OneDrive\Desktop\Web Programming\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.Login.resources
 C:\Users\resha\OneDrive\Desktop\Web Programming\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.RecoverPassword.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.csprojAssemblyReference.cache
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.az.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.Department.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.Employees.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.en.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.Home.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.Login.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.Properties.Resources.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.RecoverPassword.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.Salary.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.SalaryShow.resources
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.csproj.GenerateResource.cache
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.AssemblyInfoInputs.cache
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.AssemblyInfo.cs
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\ref\EmployeeManagementSystem.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.pdb
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\EmployeeManagementSystem.exe
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\EmployeeManagementSystem.deps.json
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\EmployeeManagementSystem.runtimeconfig.json
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\EmployeeManagementSystem.runtimeconfig.dev.json
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\EmployeeManagementSystem.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\ref\EmployeeManagementSystem.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\EmployeeManagementSystem.pdb
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.csproj.CopyComplete
+C:\Users\resha\OneDrive\Desktop\Employee-Management-System-master\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net5.0-windows\EmployeeManagementSystem.genruntimeconfig.cache
